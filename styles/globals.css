@@ -14,8 +14,55 @@ a {
 * {
   box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
+.grid-table td {
+  background-color: sandybrown;
+  text-align: center;
+  height: 2em;
+  width: 2em;
+  font-size: 60pt;
+  border-radius: 8%;
+}
+.grid-table td:hover {
+  cursor: pointer;
+  background-color: saddlebrown;
+  transition: 0.2s;
+}
+table.grid-table {
+  margin: auto;
+}
+table.scoreboard {
+  margin: auto;
+}
+.scoreboard td {
+  padding: 0 2em;
+  background-color: white;
+  border-radius: 50%;
+}
+h1,
+h3,
+h5 {
+  text-align: center;
+}
+section.game {
+  text-align: center;
+}
+button {
+  min-width: 3em;
+  height: 3em;
+  margin: auto;
+}
+.selected-button {
+  background-color: green;
+  color: white;
+}
+.divider {
+  margin: 1em;
+}
+html {
+  background-color: #ffa3a333;
+  height: 60%;
+}
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +70,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
